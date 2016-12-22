@@ -21,4 +21,4 @@ for step in directions:
     distance[0 if horizontal else 1] += sign
 
 
-print(distance[0] + distance[1])
+print(abs(distance[0]) + abs(distance[1]))
